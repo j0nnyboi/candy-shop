@@ -24,7 +24,7 @@ export interface BuyModalProps {
   candyShopProgramId: web3.PublicKey;
   connection: web3.Connection;
   isEnterprise: boolean;
-  candyShopVersion: CandyShopVersion;
+  candyShopVersion?: CandyShopVersion;
   shopPriceDecimalsMin: number;
   shopPriceDecimals: number;
   sellerUrl?: string;
@@ -40,7 +40,6 @@ export const BuyModal: React.FC<BuyModalProps> = ({
   candyShopProgramId,
   connection,
   isEnterprise,
-  candyShopVersion,
   shopPriceDecimalsMin,
   shopPriceDecimals,
   sellerUrl
