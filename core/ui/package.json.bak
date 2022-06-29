@@ -1,5 +1,5 @@
 {
-  "name": "@j0nnyboi/candy-shop",
+  "name": "@liqnft/candy-shop",
   "version": "0.5.5",
   "description": "Your own decentralized and escrowless marketplace in minutes",
   "main": "dist/index.es.js",

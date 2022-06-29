@@ -1,5 +1,5 @@
 {
-  "name": "@j0nnyboi/candy-shop-sdk",
+  "name": "@jonnyboi/candy-shop-sdk",
   "version": "0.5.10",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
     "test": "ts-mocha test/**/*.spec.ts"
   },
   "dependencies": {
-    "@liqnft/candy-shop-types": "0.2.9",
+    "@j0nnyboi/candy-shop-types": "0.2.9",
     "@j0nnyboi/anchor": "^0.17.0",
     "@safecoin/safe-token": "^0.2.0",
     "@j0nnyboi/wallet-adapter-react": "^0.15.4",
