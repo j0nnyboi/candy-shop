@@ -1,7 +1,7 @@
 import { CandyShopTrade, CandyShopTradeCancelParams, CandyShopVersion } from '@liqnft/candy-shop-sdk';
 import { Order as OrderSchema } from '@liqnft/candy-shop-types';
-import { BN, web3 } from '@project-serum/anchor';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { BN, web3 } from '@j0nnyboi/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import { Modal } from 'components/Modal';
 import { Processing } from 'components/Processing';
 import { TIMEOUT_EXTRA_LOADING } from 'constant';

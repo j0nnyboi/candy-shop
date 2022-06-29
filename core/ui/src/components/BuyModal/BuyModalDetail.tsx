@@ -1,6 +1,6 @@
 import { fetchNFTByMintAddress } from '@liqnft/candy-shop-sdk';
 import { Nft, Order as OrderSchema } from '@liqnft/candy-shop-types';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import { NftAttributes } from 'components/NftAttributes';
 import { NftStat } from 'components/NftStat';
 import { Viewer } from 'components/Viewer';

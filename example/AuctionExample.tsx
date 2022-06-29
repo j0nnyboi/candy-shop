@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { WalletMultiButton } from '@solana/wallet-adapter-ant-design';
-import { useAnchorWallet } from '@solana/wallet-adapter-react';
+import { useAnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 
 import { CandyShop, SingleTokenInfo } from '../core/sdk/.';
 import { CreateAuction, Auctions } from '../core/ui/.';

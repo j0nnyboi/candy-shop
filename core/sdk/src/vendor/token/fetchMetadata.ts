@@ -1,5 +1,5 @@
-import { web3 } from '@project-serum/anchor';
-import { Account, getAccount } from '@solana/spl-token';
+import { web3 } from '@j0nnyboi/anchor';
+import { Account, getAccount } from '@safecoin/safe-token';
 import axios from 'axios';
 import * as crc32 from 'crc-32';
 import { CandyShopError, CandyShopErrorType } from '../error';

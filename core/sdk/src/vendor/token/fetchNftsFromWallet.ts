@@ -1,7 +1,7 @@
-import * as anchor from '@project-serum/anchor';
-import { TOKEN_PROGRAM_ID } from '@solana/spl-token';
+import * as anchor from '@j0nnyboi/anchor';
+import { TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import { SingleTokenInfo, singleTokenInfoPromise, SingleTokenInfoPromiseParam } from './fetchMetadata';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import { deleteCandyShopIDB, retrieveWalletNftFromIDB, storeWalletNftToIDB } from '../../idb';
 import { sleepPromise } from '../utils/promiseUtils';
 

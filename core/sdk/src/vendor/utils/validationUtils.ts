@@ -1,5 +1,5 @@
-import { BN, Program, web3 } from '@project-serum/anchor';
-import { getAccount } from '@solana/spl-token';
+import { BN, Program, web3 } from '@j0nnyboi/anchor';
+import { getAccount } from '@safecoin/safe-token';
 import { CandyShopError, CandyShopErrorType } from '../error';
 import { FEE_ACCOUNT_MIN_BAL, NATIVE_CREATORS_LIMIT, SPL_CREATORS_LIMIT } from '../../factory/constants';
 import {

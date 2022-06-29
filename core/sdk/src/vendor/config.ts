@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig } from 'axios';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 
 const axiosInstance = axios.create({
   headers: {

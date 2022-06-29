@@ -1,5 +1,5 @@
-import * as anchor from '@project-serum/anchor';
-import { createRevokeInstruction, getAccount, TOKEN_PROGRAM_ID } from '@solana/spl-token';
+import * as anchor from '@j0nnyboi/anchor';
+import { createRevokeInstruction, getAccount, TOKEN_PROGRAM_ID } from '@safecoin/safe-token';
 import {
   AUCTION_HOUSE_PROGRAM_ID,
   getAtaForMint,

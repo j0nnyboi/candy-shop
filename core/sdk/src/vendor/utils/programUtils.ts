@@ -1,10 +1,10 @@
-import { web3, BN, Program, Idl, Provider } from '@project-serum/anchor';
+import { web3, BN, Program, Idl, Provider } from '@j0nnyboi/anchor';
 import {
   ASSOCIATED_TOKEN_PROGRAM_ID,
   TOKEN_PROGRAM_ID,
   getAccount,
   createAssociatedTokenAccountInstruction
-} from '@solana/spl-token';
+} from '@safecoin/safe-token';
 import {
   AUCTION,
   AUCTION_HOUSE,
@@ -18,8 +18,8 @@ import {
   WALLET,
   CANDY_SHOP_V2_PROGRAM_ID
 } from '../../factory/constants';
-import { findProgramAddressSync } from '@project-serum/anchor/dist/cjs/utils/pubkey';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { findProgramAddressSync } from '@j0nnyboi/anchor/dist/cjs/utils/pubkey';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 
 import candyShopIdl from '../../idl/candy_shop.json';
 import candyShopV2Idl from '../../idl/candy_shop_v2.json';
@@ -39,7 +39,7 @@ export const MetadataProgramPubkey = new web3.PublicKey(METADATA_PROGRAM_ID);
  * @returns
  */
 const getNodeWallet = (wallet: web3.Keypair) => {
-  const NodeWallet = require('@project-serum/anchor/dist/cjs/nodewallet').default;
+  const NodeWallet = require('@j0nnyboi/anchor/dist/cjs/nodewallet').default;
   return new NodeWallet(wallet);
 };
 

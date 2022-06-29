@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
-import { web3 } from '@project-serum/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
+import { web3 } from '@j0nnyboi/anchor';
 import {
   CandyShop,
   SingleTokenInfo,

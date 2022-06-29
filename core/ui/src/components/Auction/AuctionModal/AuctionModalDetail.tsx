@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 
 import { LiqImage } from 'components/LiqImage';
 import { NftStat } from 'components/NftStat';

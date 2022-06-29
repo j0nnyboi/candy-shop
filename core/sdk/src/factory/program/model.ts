@@ -1,6 +1,6 @@
-import * as anchor from '@project-serum/anchor';
-import { web3, BN, Program, Idl } from '@project-serum/anchor';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import * as anchor from '@j0nnyboi/anchor';
+import { web3, BN, Program, Idl } from '@j0nnyboi/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 
 export interface UpdateCandyShopParams {
   wallet: AnchorWallet | web3.Keypair;

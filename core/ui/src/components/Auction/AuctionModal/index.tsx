@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import { AnchorWallet } from '@solana/wallet-adapter-react';
-import { web3, BN } from '@project-serum/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
+import { web3, BN } from '@j0nnyboi/anchor';
 import { Modal } from 'components/Modal';
 import { Processing } from 'components/Processing';
 

@@ -1,4 +1,4 @@
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import {
   AUCTION_HOUSE_PROGRAM_ID,
   getAtaForMint,

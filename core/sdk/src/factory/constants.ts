@@ -1,4 +1,4 @@
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 
 export const WRAPPED_SOL_MINT = new web3.PublicKey('So11111111111111111111111111111111111111112');
 
@@ -27,7 +27,7 @@ export const AUTHORITY = 'authority';
 export const ORDER = 'order';
 export type Side = 'sell' | 'buy';
 
-export const FEE_ACCOUNT_MIN_BAL = 0.05 * web3.LAMPORTS_PER_SOL;
+export const FEE_ACCOUNT_MIN_BAL = 0.05 * web3.LAMPORTS_PER_SAFE;
 
 export const NATIVE_CREATORS_LIMIT = 5;
 export const SPL_CREATORS_LIMIT = 2;

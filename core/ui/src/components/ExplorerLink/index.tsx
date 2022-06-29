@@ -1,5 +1,5 @@
 import React from 'react';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import { shortenAddress } from 'utils/format';
 
 export const ExplorerLink = (props: {

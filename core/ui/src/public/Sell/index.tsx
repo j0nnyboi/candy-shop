@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState, useCallback, useRef } from 'react';
-import { web3 } from '@project-serum/anchor';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { web3 } from '@j0nnyboi/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 
 import { Empty } from 'components/Empty';
 import { Nft } from 'components/Nft';

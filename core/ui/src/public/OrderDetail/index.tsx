@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { BN, web3 } from '@project-serum/anchor';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { BN, web3 } from '@j0nnyboi/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 
 import { CandyShop } from '@liqnft/candy-shop-sdk';
 import { Nft, SingleBase, Order as OrderSchema } from '@liqnft/candy-shop-types';

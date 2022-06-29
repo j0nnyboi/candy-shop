@@ -1,4 +1,4 @@
-import { BN } from '@project-serum/anchor';
+import { BN } from '@j0nnyboi/anchor';
 import { CandyShopTradeBuyParams, CandyShopTradeCancelParams, CandyShopTradeSellParams } from './CandyShopModel';
 import {
   buyAndExecuteSale,

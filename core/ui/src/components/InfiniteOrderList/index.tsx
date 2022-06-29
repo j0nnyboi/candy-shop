@@ -3,7 +3,7 @@ import { Order as OrderComponent } from 'components/Order';
 import { Order } from '@liqnft/candy-shop-types';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Skeleton } from 'components/Skeleton';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import { CandyShop } from '@liqnft/candy-shop-sdk';
 
 interface InfiniteOrderListProps {

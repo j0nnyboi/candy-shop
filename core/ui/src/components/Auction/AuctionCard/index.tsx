@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { CandyShop } from '@liqnft/candy-shop-sdk';
 import { Auction, AuctionStatus } from '@liqnft/candy-shop-types';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import { AuctionModal } from '../AuctionModal';
 import { Countdown } from 'components/Countdown';
 import { Price } from 'components/Price';

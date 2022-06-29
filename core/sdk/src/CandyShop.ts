@@ -10,8 +10,8 @@ import {
   TradeQuery,
   WhitelistNft
 } from '@liqnft/candy-shop-types';
-import { BN, Idl, Program, Provider, web3 } from '@project-serum/anchor';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { BN, Idl, Program, Provider, web3 } from '@j0nnyboi/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import {
   getAuction,
   getAuctionHouse,

@@ -1,6 +1,6 @@
 import React from 'react';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
-import { web3, BN } from '@project-serum/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
+import { web3, BN } from '@j0nnyboi/anchor';
 import { CandyShop, SingleTokenInfo } from '@liqnft/candy-shop-sdk';
 
 import { FormType } from '../AuctionForm';

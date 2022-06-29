@@ -1,5 +1,5 @@
-import { BN, web3 } from '@project-serum/anchor';
-import { createTransferInstruction, getAssociatedTokenAddress } from '@solana/spl-token';
+import { BN, web3 } from '@j0nnyboi/anchor';
+import { createTransferInstruction, getAssociatedTokenAddress } from '@safecoin/safe-token';
 import { CandyShop } from '../src/CandyShop';
 // 3bbErS7dXtoQcMTanAW2f5rDjkxZoKh3TecNof8PPE57
 const USER_1 = new Uint8Array([

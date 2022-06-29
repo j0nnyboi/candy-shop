@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import { CandyShop, fetchAuctionsByShopAddress } from '@liqnft/candy-shop-sdk';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { LoadingSkeleton } from 'components/LoadingSkeleton';

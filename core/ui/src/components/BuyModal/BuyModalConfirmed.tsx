@@ -1,7 +1,7 @@
 import React from 'react';
 import { Order as OrderSchema } from '@liqnft/candy-shop-types';
 
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import { formatDate } from 'utils/format';
 import { ExplorerLink } from 'components/ExplorerLink';
 import { LiqImage } from 'components/LiqImage';

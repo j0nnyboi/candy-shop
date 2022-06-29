@@ -1,5 +1,5 @@
 import { deserializeUnchecked } from 'borsh';
-import { BN, web3 } from '@project-serum/anchor';
+import { BN, web3 } from '@j0nnyboi/anchor';
 
 // eslint-disable-next-line
 export const METADATA_REPLACE = new RegExp('\u0000', 'g');

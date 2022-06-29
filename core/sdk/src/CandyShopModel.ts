@@ -1,5 +1,5 @@
-import { web3, BN } from '@project-serum/anchor';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { web3, BN } from '@j0nnyboi/anchor';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 
 /**
  * Program version that CandyShop was created with

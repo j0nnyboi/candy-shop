@@ -1,6 +1,6 @@
 import { CandyShop } from '@liqnft/candy-shop-sdk';
 import { Order as OrderSchema } from '@liqnft/candy-shop-types';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import { IconPlayer } from 'assets/IconPlayer';
 import { BuyModal } from 'components/BuyModal';
 import { CancelModal } from 'components/CancelModal';

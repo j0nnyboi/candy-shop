@@ -4,7 +4,7 @@ import { Empty } from 'components/Empty';
 import { InfiniteOrderList } from 'components/InfiniteOrderList';
 import { LoadingSkeleton } from 'components/LoadingSkeleton';
 import { PoweredBy } from 'components/PoweredBy';
-import { AnchorWallet } from '@solana/wallet-adapter-react';
+import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import { ORDER_FETCH_LIMIT, SORT_OPTIONS } from 'constant/Orders';
 import { OrdersActionsStatus } from 'constant';
 import { CandyShop } from '@liqnft/candy-shop-sdk';

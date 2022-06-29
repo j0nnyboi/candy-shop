@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import 'react-app-polyfill/ie11';
 import { WalletModalProvider, WalletMultiButton } from '@solana/wallet-adapter-ant-design';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
+import { ConnectionProvider, WalletProvider } from '@j0nnyboi/wallet-adapter-react';
 import {
   getLedgerWallet,
   getMathWallet,
@@ -13,7 +13,7 @@ import {
   getSolongWallet,
   getTorusWallet
 } from '@solana/wallet-adapter-wallets';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import { MarketplaceExample } from './MarketplaceExample';
 import { AuctionExample } from './AuctionExample';
 import { TORUS_WALLET_CLIENT_ID } from './constant/clientId';

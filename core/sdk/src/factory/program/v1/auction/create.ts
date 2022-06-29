@@ -1,4 +1,4 @@
-import { Transaction, SYSVAR_CLOCK_PUBKEY } from '@solana/web3.js';
+import { Transaction, SYSVAR_CLOCK_PUBKEY } from '@safecoin/web3.js';
 import {
   getAtaForMint,
   getAuctionHouseAuthority,

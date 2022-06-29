@@ -1,5 +1,5 @@
-import { BN, web3 } from '@project-serum/anchor';
-import { approve, createTransferInstruction, getAccount, getAssociatedTokenAddress } from '@solana/spl-token';
+import { BN, web3 } from '@j0nnyboi/anchor';
+import { approve, createTransferInstruction, getAccount, getAssociatedTokenAddress } from '@safecoin/safe-token';
 import assert from 'assert';
 import { safeAwait } from '../src/vendor';
 import { CandyShop } from '../src/CandyShop';

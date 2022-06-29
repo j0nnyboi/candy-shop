@@ -1,4 +1,4 @@
-import * as anchor from '@project-serum/anchor';
+import * as anchor from '@j0nnyboi/anchor';
 import { AUCTION_HOUSE_PROGRAM_ID, getAuctionHouseTradeState, sendTx, checkNftAvailability } from '../../../../vendor';
 import { CancelTransactionParams } from '../../model';
 

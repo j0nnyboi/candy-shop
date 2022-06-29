@@ -1,5 +1,5 @@
 import { CandyShop } from '@liqnft/candy-shop-sdk';
-import * as anchor from '@project-serum/anchor';
+import * as anchor from '@j0nnyboi/anchor';
 import { Command } from 'commander';
 import {
   CANDY_SHOP_PROGRAM_ID,

@@ -11,7 +11,7 @@ import React, {
 
 import { fetchShopStatusByShopAddress } from '@liqnft/candy-shop-sdk';
 import { SingleBase, ShopStatus, ShopStatusType } from '@liqnft/candy-shop-types';
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 
 import { POLLING_SHOP_INTERVAL } from 'constant';
 import { useInterval } from 'hooks/useInterval';

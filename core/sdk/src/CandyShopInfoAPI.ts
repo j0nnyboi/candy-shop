@@ -3,7 +3,7 @@
  * CandyShop instance but just a few required fields from CandyShop instance to get the shop info.
  */
 
-import { web3 } from '@project-serum/anchor';
+import { web3 } from '@j0nnyboi/anchor';
 import {
   ListBase,
   Nft,
