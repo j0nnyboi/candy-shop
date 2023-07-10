@@ -17,7 +17,7 @@ import {
   ShopStatusQuery,
   OrdersFilterQuery,
   TradeQuery
-} from '@liqnft/candy-shop-types';
+} from '@j0nnyboi/candy-shop-types';
 import {
   fetchNftByMint,
   fetchOrderByTokenMintAndShopId,

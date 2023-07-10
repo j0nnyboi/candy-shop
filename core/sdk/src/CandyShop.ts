@@ -9,7 +9,7 @@ import {
   Trade,
   TradeQuery,
   WhitelistNft
-} from '@liqnft/candy-shop-types';
+} from '@j0nnyboi/candy-shop-types';
 import { BN, Idl, Program, Provider, web3 } from '@j0nnyboi/anchor';
 import { AnchorWallet } from '@j0nnyboi/wallet-adapter-react';
 import {

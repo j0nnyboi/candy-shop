@@ -1,4 +1,4 @@
-import { SingleBase, WhitelistNft, ShopStatus, CandyShop, ListBase, ShopStatusQuery } from '@liqnft/candy-shop-types';
+import { SingleBase, WhitelistNft, ShopStatus, CandyShop, ListBase, ShopStatusQuery } from '@j0nnyboi/candy-shop-types';
 import { AxiosInstance } from 'axios';
 import qs from 'qs';
 

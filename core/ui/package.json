@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@google/model-viewer": "1.8.0",
-    "@j0nnyboi/candy-shop-sdk": "0.5.10",
+    "@j0nnyboi/candy-shop-sdk": "file:../sdk",
     "@j0nnyboi/anchor": "^0.17.0",
     "@safecoin/safe-token": "^0.1.7-b",
     "@j0nnyboi/wallet-adapter-react": "^0.15.4",

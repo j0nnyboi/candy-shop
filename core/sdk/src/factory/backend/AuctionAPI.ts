@@ -1,4 +1,4 @@
-import { SingleBase, ListBase, Auction, AuctionBid, AuctionStatus } from '@liqnft/candy-shop-types';
+import { SingleBase, ListBase, Auction, AuctionBid, AuctionStatus } from '@j0nnyboi/candy-shop-types';
 import { AxiosInstance } from 'axios';
 import qs from 'qs';
 

@@ -1,4 +1,4 @@
-import { ListBase, Trade, TradeQuery } from '@liqnft/candy-shop-types';
+import { ListBase, Trade, TradeQuery } from '@j0nnyboi/candy-shop-types';
 import { AxiosInstance } from 'axios';
 import qs from 'qs';
 

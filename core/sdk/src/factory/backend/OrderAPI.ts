@@ -1,4 +1,4 @@
-import { ListBase, Order, OrdersFilterQuery, Side, SingleBase, Status } from '@liqnft/candy-shop-types';
+import { ListBase, Order, OrdersFilterQuery, Side, SingleBase, Status } from '@j0nnyboi/candy-shop-types';
 import { AxiosInstance } from 'axios';
 import qs from 'qs';
 

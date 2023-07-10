@@ -1,4 +1,4 @@
-import { Auction, AuctionBid, ListBase, SingleBase } from '@liqnft/candy-shop-types';
+import { Auction, AuctionBid, ListBase, SingleBase } from '@j0nnyboi/candy-shop-types';
 import { AuctionQuery, fetchAuctionBid, fetchAuctionsByShop } from './factory/backend';
 import axiosInstance from './vendor/config';
 
